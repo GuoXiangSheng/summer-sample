@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID"
 	version="3.1">
 	<display-name>app sample</display-name>
-	<filter>
+	<!-- <filter>
 		<filter-name>Set Character Encoding</filter-name>
 		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
 		<init-param>
@@ -14,7 +14,7 @@
 	<filter-mapping>
 		<filter-name>Set Character Encoding</filter-name>
 		<url-pattern>/forms/*</url-pattern>
-	</filter-mapping>
+	</filter-mapping> -->
 	<!-- 主入口，用于宣传页展示 -->
 	<filter>
 		<filter-name>StartApp</filter-name>

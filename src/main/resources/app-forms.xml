@@ -7,4 +7,7 @@
 	</bean>
 	<bean id="Default" class="cn.cerc.sample.forms.Default" scope="prototype">
 	</bean>
+	
+	<bean id="FrmGoods" class="cn.cerc.sample.forms.FrmGoods"  scope="prototype" >
+	</bean>
 </beans>

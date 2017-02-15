@@ -29,4 +29,10 @@
 	<bean id="ServiceUserList" class="cn.cerc.sample.services.ServiceUserList" scope="prototype">
 		<property name="restPath" value="get://*/public/users" />
 	</bean>
+	
+	<bean id="SvrGoodsSave" class="cn.cerc.sample.services.SvrGoodsSave" scope="prototype">
+		<property name="restPath" value="get://*/public/goodsadd" />
+	</bean>
+	<bean id="SvrGoodsQuery" class="cn.cerc.sample.services.SvrGoodsQuery" scope="prototype">
+	</bean>
 </beans>

@@ -13,5 +13,10 @@
 			<web process="test" pageno="101" class="cn.cerc.sample.forms.Default" />
 			<access verlist="4,6,1,2,3,5,0," />
 		</item>
+		
+		<item code="FrmGoods" name="商品" proccode="base.default" parent="" hide="false" security="false">
+			<web process="test" pageno="101" class="cn.cerc.sample.forms.FrmGoods" />
+			<access verlist="4,6,1,2,3,5,0," />
+		</item>
 	</body>
 </html>
